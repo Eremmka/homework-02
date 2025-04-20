@@ -1,0 +1,59 @@
+@font-face{
+    font-family: 'Roboto';
+    src: url('../public/static/fonts/Roboto-Regular.ttf') format('truetype');
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: url('../public/static/assets/summer-bg.jpg') no-repeat;
+    backdrop-filter: blur(5px);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;
+}
+h1{
+    font-size: 3rem;
+    color: coral;
+}
+img{
+    height: 3rem;
+    width: 3rem;
+}
+.input:hover{
+    cursor: pointer;
+}
+.button1{
+    cursor: pointer;
+    background: url('../public/static/assets/summer-bg.jpg');
+    background-size: cover;
+    padding: 4.5rem;
+    border: 0.5px solid white;
+    border-radius: 1rem;
+    margin-right: 2rem;
+}
+.button2{
+    cursor: pointer;
+    background: url('../public/static/assets/rainy-bg.jpg');
+    background-size: cover;
+    padding: 4.5rem;
+    border: 0.5px solid white;
+    border-radius: 1rem;
+    margin-right: 2rem;
+}
+.button3{
+    cursor: pointer;
+    background: url('../public/static/assets/winter-bg.jpg');
+    background-size: cover;
+    padding: 4.5rem;
+    border: 0.5px solid white;
+    border-radius: 1rem;
+    margin-bottom: 2rem;
+}
